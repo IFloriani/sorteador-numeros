@@ -24,6 +24,7 @@ function sortear() {
     resultado.innerHTML = `<label class="texto__paragrafo">Números sorteados:  ${listaDeNumerosSorteados}</label>`;
 
     alterarStatusBotao();
+    listaDeNumerosSorteados = [];
 }
 
 function obterNumeroAleatorio(min, max, ){
